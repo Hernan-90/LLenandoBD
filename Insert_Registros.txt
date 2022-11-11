@@ -1,7 +1,54 @@
 INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
-	VALUES ("", ""
-  , , , , , , , , , -> 9 valores
-  , , , , , , , , -> 8 valores
-  ,,,, -> 4 valores
-  ,,,, -> 4 valores
+	VALUES ("naturaleza", "agentes de viajes y turismo" 1, 1, 0, 0, 0, 1, 0, 0, 0, 
+  0, 0, 0, 0, 0, 1, 0, 1, 1, 0,0,0,1,0,0,0, 
+  );
+
+  INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("arquitctura", "agrimensura"
+  0, 0, 0, 0, 0, 0, 0, 1, 0,0, 1, 1, 0, 0, 0, 0, 1,0, 0, 0, 0,0, 1, 0, 0,
+  );
+
+  INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("moda", "altacostura"
+  1, 0, 0, 1, 0, 0, 0, 0, 0,0, 0, 1, 0, 1, 1, 1, 0,1, 0, 0, 1,1, 1, 0, 0,
+  );
+
+  INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("informatica", "analisis de sistemas"
+  1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,0, 1, 1, 0,
+  );
+
+  INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("informatica", "analista de computacion"
+  1, 0, 1, 0, 0, 1, 0, 1, 0,0, 1, 0, 0, 0, 0, 0, 0,0, 0, 0, 1,0, 1, 1, 0,
+  );
+
+    INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("informatica", "analista programador universitario"
+  1, 0, 1, 0, 0, 1, 0, 1, 0,0, 1, 0, 0, 0, 0, 0, 0,0,0,0,1,0, 1, 1, 0, 
+  );
+
+    INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("ciencias", "analista quimico"
+  0, 0, 0, 0, 0, 0, 1, 1, 0,0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 
+  );
+
+    INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("ciencias", "antropologia"
+  0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 
+  );
+
+    INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("administracion", "archivologia"
+  0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 
+  );
+
+    INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("ciencias", "arqueologia"
+  0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 
+  );
+
+    INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("arquitctura", "arquitctura"
+  1, 0, 0, 1, 0, 0, 0, 1, 1,0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 
   );
