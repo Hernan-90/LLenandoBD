@@ -1,0 +1,32 @@
+Bienvenidos, welcome, Bem vindo!!
+
+Esto es simple: 
+
+  1. Abren el excel y eligen un rango de registros. Fijense que alguien no ya lo haya trabajado antes.
+  2. Lo siguiente es abrir y tener a mano el txt de insert_registros para poner los valores.
+
+  Como es que se hace? facil!
+
+    Cada fila tiene una carrera con su informacion, esa informacion es lo que tienen que ponder en la sentencia de SQL dentro de VALUES.
+
+      A) INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	                    VALUES ("", "", , , , , , , , , , , , , , , , , ,,,,,,,, );
+
+    Ahi lo acomode para que puedan visualizarlo bien, la idea es que cada espacio sea lo que va a ingresar dentro de cada campo de la tabla.
+
+        INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	                    VALUES ("Sociales", "Abogacia", 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0,1,1,0,1,1,1,1,0);
+    
+    La separacion entre los grupos es de 9 valores, 8, 4 y 4. Esto quiere decir lo siguiente:
+
+        INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	                    VALUES ("", "" -> corresponde a clasificacion y carrera
+                      , , , , , , , , , -> 9 valores / desde serviciosocial hasta mecanicoconstructivo
+                      , , , , , , , , -> 8 valores / desde linguistico hasta naturalista
+                      ,,,, -> 4 valores / desde sanguineo hasta melancolico
+                      ,,,, -> 4 valores / desde activo hasta pragmatico
+                      );
+    
+    Si quieren separarlo para verlo mejor, pueden hacerlo, pero el resultado final debe quedar como en A).
+
+    Por ultimo copian A) para un nuevo registro y listo!

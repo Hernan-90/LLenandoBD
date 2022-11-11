@@ -1,0 +1,7 @@
+INSERT INTO carreras (clasificacion, carrera, serviciosocial, ejecutivapersuasiva, verbal, artisticoplastico, musicalIA, organizacion, cientifica, calculo, mecanicoconstructivo, linguistico, logicomatematico, espacial, musicalIM, corporalkinestesica, interpersonal, intrapersonal, naturalista, sanguineo, colerico, flematico, melancolico, activo, reflexivo, teorico, pragmatico)
+	VALUES ("", ""
+  , , , , , , , , , -> 9 valores
+  , , , , , , , , -> 8 valores
+  ,,,, -> 4 valores
+  ,,,, -> 4 valores
+  );
